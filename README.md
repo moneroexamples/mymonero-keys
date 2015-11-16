@@ -1,11 +1,9 @@
 # Recover your mymonero address and keys using mnemonic seed
 
+How to recover address, private view and spend keys in C++ based on
+13 word mnemonic seed provided by [mymonero.com](https://mymonero.com/).
 
-
-# Aim: check which transaction's outputs belong to a given address
-
-
-# C++: main.cpp
+## C++: main.cpp
 
 ```c++
 #include "src/CmdLineOptions.h"
@@ -120,6 +118,8 @@ int main(int ac, const char* av[]) {
     return 0;
 }
 ```
+
+## Example results
 
 ## How can you help?
 
