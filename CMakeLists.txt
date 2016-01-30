@@ -26,14 +26,14 @@ set(MONERO_LIBS_DIR
 
 # set location of moneroheaders
 set(MONERO_HEADERS_DIR
-        /mnt/e/md/cpp/bitmonero)
+        /opt/bitmonero-dev/headers)
 
 # include monero headers
 include_directories(
         ${MONERO_HEADERS_DIR}/src
         ${MONERO_HEADERS_DIR}/external
         ${MONERO_HEADERS_DIR}/contrib/epee/include
-        ${MONERO_HEADERS_DIR}/external/db_drivers/liblmdb64)
+        ${MONERO_HEADERS_DIR}/external/db_drivers/liblmdb)
 
 
 

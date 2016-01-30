@@ -39,7 +39,12 @@ int main(int ac, const char* av[]) {
 
     // get the program command line options, or
     // some default values for quick check
-    string mnemonic_str = mnemonic_opt ? *mnemonic_opt : "slid otherwise jeers lurk swung tawny zodiac tusks twang cajun swagger peaches tawny";
+    string mnemonic_str = mnemonic_opt
+                          ? *mnemonic_opt
+                          : "slid otherwise jeers lurk swung tawny zodiac tusks twang cajun swagger peaches tawny";
+
+    cout << "\n"
+         << "Mnemonic seed    : " << mnemonic_str << endl;
 
 
     // change the MyMonero 13 word mnemonic seed

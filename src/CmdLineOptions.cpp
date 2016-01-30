@@ -46,7 +46,7 @@ namespace xmreg
                 && vm.count(opt2) && !vm[opt2].defaulted())
             {
                 throw logic_error(string("Specifly only  '")
-                                    + opt1 + "' or '" + opt2 + "'. Not both.");
+                                  + opt1 + "' or '" + opt2 + "'. Not both.");
             }
     }
 
